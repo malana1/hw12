@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Js 12</title>
+</head>
+<body>
+    <section>
+        <div class="slider-wraper">
+            <button class=" arrow arrow-left"> > </button>
+            <button class="arrow arrow-right"> >  </button>
+            <div class="slider-content">
+                
+            </div>
+        </div>
+    </section>
+    
+    <form action="" id="registration-form">
+        <div>
+            <label for="username-field">Username</label>
+            <input type="text" name="username" id="username-field">
+            <p class="error-text" id="error-username"></p>
+        </div>
+        <div>
+            <label for="password-field">Password</label>
+            <input type="password" name="password" id="password-field">
+            <p class="error-text" id="error-password"></p>
+        </div>
+        <div>
+            <label for="password-field2">Password2</label>
+            <input type="password" name="password2" id="password-field2">
+            <p class="error-text" id="error-password2"></p>
+
+        </div>
+        <div>
+            <input class="agee" type="radio" name="age" id="age1">
+            <label for="age1">18-30</label>
+            <input class="agee" type="radio" name="age" id="age2">
+            <label for="age2">30-50</label>
+            <p class="error-text" id="error-age"></p>
+
+        </div>
+        <div>
+            <input type="checkbox" name="agree" id="agree">
+            <label for="agree"> i agree</label>
+            <p class="error-text" id="error-agree"></p>
+
+        </div>
+        <button type="submit">submmit</button>
+    </form>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js">
+
+    </script>
+    <script src="js/script.js"></script>
+</body>
+</html>
